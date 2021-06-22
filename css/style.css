@@ -1,5 +1,11 @@
+* {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #4d4e53;
+}
+
 .nav-bar {
-    border: 1px solid black;
+    border-right: 2px solid grey;
     width: 300px;
     height: 100%;
     display: flex;
@@ -11,6 +17,46 @@
     margin: 0px;
 }
 
+.nav-bar a {
+    height: 30px;
+    width: 300px;
+    border-top: 1px solid grey;
+    padding-top: 7.5px;
+    text-indent: 2em;
+    font-size: 16px;
+}
+
+.nav-bar h1 {
+    text-align: center;
+}
+
 main {
-    margin-left: 325px;
+    margin: 25px 25px 25px 300px;
+    line-height: 1.5;
+}
+
+article {
+    margin: 15px 15px 15px 30px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main p, li {
+    margin: 15px;
+}
+
+code {
+    display: block;
+    white-space: pre-line;
+    line-height: 2;
+    margin: 25px;
+    padding: 10px;
+    background-color: #f7f7f7;
+
+}
+
+nav a:link {
+    text-decoration: none;
 }
