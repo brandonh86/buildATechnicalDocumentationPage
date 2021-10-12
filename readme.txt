@@ -1,1 +1,0 @@
-My attempt at recreating this documentation page
